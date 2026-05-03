@@ -1,0 +1,24 @@
+{
+  "name": "eco-pixel",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/eco-pixel/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "postcss": "^8.4.41",
+    "postcss-sort-media-queries": "^5.2.0",
+    "vite": "^7.2.7"
+  },
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "footer": "^1.0.0",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}
