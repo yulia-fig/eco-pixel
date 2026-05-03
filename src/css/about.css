@@ -1,0 +1,88 @@
+.about-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(/img/about/about-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 16px;
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+.about-main-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    font-family: "Comfortaa", sans-serif;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+    .about-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/img/about/about-mobile@2x.jpg);
+    }
+}
+@media screen and (min-width: 768px) {
+    .about-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        max-width: 768px;
+        margin: 0 auto;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                url(/img/about/about-tablet.jpg);
+    }
+        .about-text {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .about-section {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                url(/img/about/about-tablet@2x.jpg);
+    }
+}
+@media screen and (min-width: 1440px) {
+    .about-section {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        max-width: 1440px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                url(/img/about/about-desktop.jpg);
+    }
+    .about {
+        width: 768px;
+        height: 256px;
+    }
+    .about-title {
+        font-size: 56px;
+    }
+    
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .about-section {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                url(/img/about/about-desktop@2x.jpg);
+    }
+}

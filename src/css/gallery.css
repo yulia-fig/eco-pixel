@@ -1,0 +1,146 @@
+
+/* mobile first */
+
+.gallery-title {
+    margin: 0 auto 16px;
+    max-width: 768px;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+   
+}
+
+.gallery-subtitle {
+    margin: 0 auto 32px;
+
+    max-width: 768px;
+    text-align: center;
+
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6; }
+
+
+
+
+
+
+.gallery-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.gallery-item {
+    list-style: none;
+}
+
+.gallery-img {
+   
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+/*  TABLET  */
+
+@media screen and (min-width: 768px) {
+    .gallery-section .container {
+        max-width: 768px;
+    }
+
+    .gallery-title {
+        font-size: 36px;
+        font-family: "Comfortaa", sans-serif;
+        margin-bottom: 24px;
+    }
+
+    .gallery-subtitle {
+        font-size: 18px;
+    }
+
+    .gallery-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-auto-rows: 340px;
+        column-gap: 24px;
+        row-gap: 24px;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    .gallery-item-4 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .gallery-item-2 {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+
+    .gallery-item-3 {
+        grid-column: 1;
+        grid-row: 2 / span 2;
+    }
+
+    .gallery-item-1 {
+        grid-column: 2;
+        grid-row: 3;
+    }
+}
+
+/*  DESKTOP */
+
+@media screen and (min-width: 1440px) {
+    .gallery-section .container {
+        max-width: 1440px;
+
+    }
+.gallery-title {
+    font-size: 48px;
+    font-family: "Comfortaa", sans-serif;
+    margin-bottom: 24px;
+}
+
+.gallery-subtitle {
+    font-size: 18px;
+}
+    .gallery-list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-auto-rows: 432px;
+
+        column-gap: 24px;
+        row-gap: 24px;
+    }
+
+
+
+    .gallery-item-4 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .gallery-item-1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .gallery-item-2 {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+
+    .gallery-item-3 {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
+}

@@ -1,0 +1,47 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  color: #030a06;
+  background-color: #ebf8ed;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+::selection {
+  background-color: #ececec;
+  color: #000;
+}
