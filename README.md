@@ -1,5 +1,6 @@
 # eco-pixel
 HTML &amp; CSS Project
+using HTML, CSS and JavaScript
 <div align="center">
 
 <!-- Банер -->
