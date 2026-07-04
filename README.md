@@ -3,6 +3,6 @@ HTML &amp; CSS Project
 <div align="center">
 
 <!-- Банер -->
-<img src="banner-github.png" width="100%" alt="My banner"/>
+<img src="./src/img/assortment/eco-beach-desktop.jpg" width="100%" alt="My banner"/>
 
 </div>
